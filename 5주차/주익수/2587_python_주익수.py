@@ -7,6 +7,6 @@ for _ in range(5):
 
 
 print(sum(num_array) // 5)
-heapq.heappop(num_array)
-heapq.heappop(num_array)
-print(heapq.heappop(num_array))
+heapq.heappop(num_array) # 첫 번째 값 제거
+heapq.heappop(num_array) # 두 번째 값 제거
+print(heapq.heappop(num_array)) # 세 번째 값 출력
