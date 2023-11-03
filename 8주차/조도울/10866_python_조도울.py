@@ -18,7 +18,7 @@ for _ in range(N):
   elif command[0] == "pop_front":
     if count != 0:
       print(deque[0])
-      del(deque[0])
+      del(deque[0]) 
       count -= 1
     else:
       print(-1)
